@@ -37,3 +37,8 @@ set nocul
 nnoremap <silent> <F7> :NERDTreeFind<CR>
 nnoremap <silent> <F7> :NERDTreeToggle<CR>
 ```
+## postscript
+Verify errors in your config  with command 
+```vim
+nvim +checkhealth
+```
